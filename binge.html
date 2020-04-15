@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pilot</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="main.css">
+
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Gotu&family=Open+Sans&display=swap" rel="stylesheet">
+
+        <script src="https://kit.fontawesome.com/2f380eab37.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <!-- MOBILE MENU -->
+        <!-- Simulate a smartphone / tablet -->
+        <div class="mobile-container">
+        
+          <!-- Top Navigation Menu -->
+          <div class="topnav">
+            <a class="mobile-title" href="index.html">Pilot</a>
+            <div id="myLinks">
+              <a href="index.html">Find Your Next Binge</a>
+              <a href="photography.html">Contact</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>  
+          <!-- End smartphone / tablet look -->
+        </div>
+
+      <div class="header"> <!-- open .header -->
+        <div class="logo"> <!-- open .logo -->
+          <h1><a href="index.html">Pilot</a></h1>
+        </div> <!-- close .logo -->
+      <div class="nav"> <!-- open .nav -->
+        <ul>
+          <li><a class="active" href="binge.html">Find Your Next Binge</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div> <!-- close .nav -->
+      </div> <!-- close .header -->
+
+      <div class="landing"><!-- open .landing -->
+        <h3>This will be a page with a generator that will give the viewer a TV show suggestion.</h3>
+      </div> <!-- close .landing -->
+      
+
+      <script>
+          function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+              x.style.display = "none";
+            } else {
+              x.style.display = "block";
+            }
+          }
+      </script>
+    </body>
+</html>
